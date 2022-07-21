@@ -5,6 +5,6 @@ services:
     #image: "bostrot/telegram-support-bot:latest"
     restart: unless-stopped
     volumes:
-      - ${PWD}/config:/bot/config
+      - ./config:/bot/config
     ports:
       - "8080:8080"
