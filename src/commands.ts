@@ -111,7 +111,7 @@ function closeCommand(bot, ctx) {
     Extra.HTML().notifications(false)
     );
     middleware.msg(userid,
-      `${cache.config.language.closed}\n\n${cache.config.language.ticketClosed}`,
+      `${cache.config.language.ticketClosed}`,
       Extra.HTML().notifications(false));
   }, groups);
 };
